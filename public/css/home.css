@@ -1,0 +1,20 @@
+.card {
+
+    margin: 0 auto;
+    width: 90%;
+    height: 150px;
+    background-color: #78899B;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column
+
+}
+
+.circulo {
+
+    width: 70px;
+    height: 70px;
+    background-color: #5D6B78;
+    border-radius: 50px;
+
+}

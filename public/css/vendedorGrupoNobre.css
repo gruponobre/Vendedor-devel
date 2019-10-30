@@ -1,0 +1,135 @@
+/*!
+ * App Vendendor - Grupo Nobre
+ *
+ *   Author:  VCNT
+ *   Support: :)
+ *
+ */
+/*
+ * 	Box, card e layout no geral
+ * ------------------------------
+ */
+
+/*
+*	 Login View - login.blade.php
+*/
+
+.borda {
+
+    border: solid #444748;
+    border-radius: 5px;
+    border-width: 2px
+
+}
+
+/*
+*	 Home View - home.blade.php
+*/
+
+.card {
+    margin: 0 auto;
+    width: 90%;
+    height: 150px;
+    background-color: #78899B;
+    border-radius: 0 10px;
+    display: flex;
+    flex-direction: column
+
+}
+
+.circulo {
+
+    width: 70px;
+    height: 70px;
+    background-color: #5D6B78;
+    border-radius: 50px;
+
+}
+
+/*
+*	 Vendas View - vendas.blade.php
+*/
+
+.boxcount {
+    width: 100%;
+    height: 100%;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: solid #444748;
+    border-width: 1px;
+    background-color: #E6EFF2;
+    font-size: 90%;
+    margin-top: 10px;
+
+}
+
+.contentvendas{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    width: 100%; 
+    margin-bottom: 5%;
+    margin-top: 3%;
+    text-align: center
+}
+
+
+/*
+*	 Pagamentos View - pagamentos.blade.php
+*/
+
+.caixamenor {
+
+    width: 45%;
+    height: 80px;
+    border: solid #444748;
+    border-width: 1px;
+    border-radius: 10px;
+    background-color: #ECF0F5;
+
+}
+
+.caixamaior {
+
+    width: 60%;
+    height: 100px;
+    border: solid #444748;
+    border-width: 1px;
+    border-radius: 10px;
+    background-color: #ECF0F5;
+    margin: 0 auto;
+
+}
+
+
+/*
+*	 Page - page.blade.php
+*/
+
+.margem{
+
+    margin-top: 0;
+}
+
+.topheader{
+
+    background-color: #B6E4F2; 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%; 
+    height: 10%
+
+}
+
+@media (min-width: 720px) {
+  .topheader 
+   {
+    height: 7%
+   }
+
+   .margem{
+    margin-top: 5%;
+    }
+}
